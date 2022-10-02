@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  box-shadow: 0px 5px 10px grey;
 }
 
 .footer {
@@ -30,6 +31,8 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   justify-items: center;
+  box-shadow: 0px 5px 10px grey;
+
 }
 .favorites {
   min-height: 80vh;
@@ -61,6 +64,8 @@ img {
   height: 400px;
   transition: all 0.3 ease;
   margin: 20px 0;
+  border-style: solid;
+  border-width: 1px;
 }
 
 img:hover {
@@ -69,11 +74,15 @@ img:hover {
 
 button {
   padding: 10px;
-  background-color: black;
-  color: white;
+  background-color: silver;
+  color: black;
   width: 300px;
   font-size: 20px;
   border-radius: 5px;
+  box-shadow: 0px 5px 10px grey;
+  border-style: solid;
+  border-width: 1px;
+
 }
 
 a {
